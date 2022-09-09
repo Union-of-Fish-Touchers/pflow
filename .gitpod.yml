@@ -1,0 +1,11 @@
+tasks:
+  - init: |
+      pip install poetry
+      poetry install
+    command: |
+      echo 'TODO: start app'
+
+vscode:
+  extensions:
+    - ms-python.python
+    - cschleiden.vscode-github-actions
